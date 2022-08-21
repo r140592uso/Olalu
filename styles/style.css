@@ -1,4 +1,4 @@
-.section1{
+.section1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,26 +6,26 @@
   width: 100%;
   margin: 40px auto 0 auto;
 }
-.logo{
+.logo {
   max-width: 400px;
   width: 100%;
 }
-.logo:hover{
+.logo:hover {
   cursor: pointer;
 }
-.list{
+.list {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
   text-transform: uppercase;
 }
-.listitem:hover{
+.listitem:hover {
   cursor: pointer;
 }
-.section2{
+.section2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,9 +33,9 @@
   width: 100%;
   margin: 40px auto;
   flex-wrap: wrap;
-
 }
-.dolls, .jewellery{
+.dolls,
+.jewellery {
   display: flex;
   width: 750px;
   height: 750px;
@@ -46,25 +46,37 @@
   justify-content: center;
   align-items: center;
 }
-.jewellery{
-  /* display: flex;
-  width: 750px;
-  height: 750px; */
+.jewellery {
   background-image: url("../Images/jews.jpeg");
-  /* background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center; */
 }
-.dolls:hover, .jewellery:hover{
+.dolls:hover,
+.jewellery:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.section2text{
+.section2text {
   font-size: 150px;
-  font-style:italic;
+  font-style: italic;
 }
-.section2text:hover{
+.section2text:hover {
   text-shadow: 1px 1px 2px #4e184e, 0 0 25px #e6b3e6, 0 0 5px #f9ecf9;
+}
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+.social-icons {
+  display: flex;
+  font-size: 30px;
+}
+.divider{
+  width: 3px;
+  height: 30px;
+  background-color: black;
+  margin: 10px;
 }
