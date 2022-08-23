@@ -25,6 +25,28 @@
 .listitem:hover {
   cursor: pointer;
 }
+.listitem{
+  display: inline-block;
+  position: relative;
+  color: black;
+  line-height: 30px;
+}
+.listitem:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.listitem:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .section2 {
   display: flex;
   justify-content: space-between;
@@ -45,6 +67,7 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  color: #4d004d;
 }
 .jewellery {
   background-image: url("../Images/jews.jpeg");
@@ -59,7 +82,7 @@
   font-style: italic;
 }
 .section2text:hover {
-  text-shadow: 1px 1px 2px #4e184e, 0 0 25px #e6b3e6, 0 0 5px #f9ecf9;
+  text-shadow: 10px 10px 20px white;
 }
 .section3 {
   display: flex;
@@ -73,10 +96,30 @@
 .social-icons {
   display: flex;
   font-size: 30px;
+  align-items: center;
 }
-.divider{
+.divider {
   width: 3px;
   height: 30px;
   background-color: black;
   margin: 10px;
+}
+.fa-facebook {
+  color: #3477eb;
+}
+.fa-tiktok {
+  text-shadow: 1px 1px 2px red;
+}
+.fa-instagram {
+  background-image: conic-gradient(
+    at 45% 35%,
+    purple,
+    pink,
+    red,
+    yellow,
+    orange,
+    purple
+  );
+  border-radius: 5px;
+  color: white;
 }
