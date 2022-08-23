@@ -25,7 +25,7 @@
 .listitem:hover {
   cursor: pointer;
 }
-.listitem{
+.listitem {
   display: inline-block;
   position: relative;
   color: black;
@@ -124,33 +124,39 @@
   color: white;
 }
 /* page dolls */
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin:0 auto;
+  display: flex;
   padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.grid-item {
+.container-item{
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  max-width: 370px;
+  width: 100%;
+  height: 450px;
 }
-.dollimages{
-  max-width÷: 600px;
+.dollimages {
+  max-width: 370px;
+  max-height: 450px;
   width: 100%;
 }
-.grid-item:hover {
+.container-item:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #EEEEEE;  
+  background-color: #eeeeee;
 }
-.grid-item-text {
-  color:grey;
-  font-style:italic;
+.container-item-text {
+  color: grey;
+  font-style: italic;
   font-size: 20px;
   display: none;
- }
-
-.grid-item:hover .grid-item-text{
+}
+.container-item:hover .container-item-text {
   display: block;
 }
-
