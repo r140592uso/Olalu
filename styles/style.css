@@ -154,7 +154,7 @@
 .container-item-text {
   color: grey;
   font-style: italic;
-  font-size: 20px;
+  font-size: 18px;
   display: none;
 }
 .container-item:hover .container-item-text {
