@@ -1,3 +1,4 @@
+/* index page */
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -49,7 +50,7 @@
 }
 .section2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 1600px;
   width: 100%;
@@ -152,11 +153,22 @@
   background-color: #eeeeee;
 }
 .container-item-text {
-  color: grey;
+  color: orange;
   font-style: italic;
   font-size: 18px;
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 .container-item:hover .container-item-text {
   display: block;
+}
+.dollprice{
+  margin: 10px 10px;
+}
+.box{
+  max-width: 370px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;;
 }
