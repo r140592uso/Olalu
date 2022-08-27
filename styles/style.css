@@ -250,12 +250,13 @@ body {
 .newstext {
   margin: 40px 0;
   font-size: 20px;
-  max-width: 650px;
+  max-width: 660px;
   width: 100%;
   margin: 0 auto;
 }
 .articletext {
-  padding: 40px 0;
+  padding: 10px 0;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 /*                 contact page                      */
 
