@@ -273,7 +273,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
 }
 .aboutcontactusheader{
   display: flex;
@@ -285,6 +285,7 @@ body {
 .aboutustext{
   margin: 0 auto 20px auto;
   font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 25px;
 }
 .map{
   max-width: 1280px;
