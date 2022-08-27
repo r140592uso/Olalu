@@ -198,11 +198,10 @@ body{
   max-width: 1300px;
   width: 100%;
   flex-wrap: wrap;
-  margin:0 auto;
+  margin:60px auto;
   justify-content: space-between;
 }
 .news:hover{
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .newsleft{
@@ -212,7 +211,7 @@ body{
 }
 .newsright{
   display: flex;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   flex-direction: column;
   text-align: center;
@@ -224,7 +223,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
-  flex-wrap:wrap-reverse;
+  flex-direction: column-reverse;
 }
 .date{
   font-size: 20px;
@@ -233,7 +232,7 @@ body{
 .newstext{
   margin: 40px 0;
   font-size: 20px;
-  max-width: 600px;
+  max-width: 650px;
   width: 100%;
   margin: 0 auto;
 }
