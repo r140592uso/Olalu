@@ -286,6 +286,10 @@ body {
   margin: 0 auto 20px auto;
   font-family: 'Edu VIC WA NT Beginner', cursive;
 }
+.map{
+  max-width: 1280px;
+  width: 100%;
+}
 .description{
   margin: 10px auto;
 }
