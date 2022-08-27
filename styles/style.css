@@ -1,4 +1,3 @@
-/*                      index page                     ---------*/
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -37,57 +36,16 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: orange;
+  background-color: #f05207;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 .listitem:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-.section2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1600px;
-  width: 100%;
-  margin: 40px auto;
-  flex-wrap: wrap;
-}
-.dolls,
-.jewellery {
-  display: flex;
-  width: 750px;
-  height: 750px;
-  background-image: url("../Images/dolls.jpeg");
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  color: #4d004d;
-}
-.jewellery {
-  background-image: url("../Images/jews.jpeg");
-}
-.dolls:hover,
-.jewellery:hover {
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.section2text {
-  font-size: 150px;
-  font-style: italic;
-}
-.section2text:hover {
-  text-shadow: 10px 10px 20px white;
-}
-
-body{
-  position: relative;
 }
 .section3 {
   display: flex;
@@ -132,6 +90,51 @@ body{
   border-radius: 5px;
   color: white;
 }
+
+/*                      index page                     ---------*/
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+.dolls,
+.jewellery {
+  display: flex;
+  width: 750px;
+  height: 750px;
+  background-image: url("../Images/dolls.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: #4d004d;
+}
+.jewellery {
+  background-image: url("../Images/jews.jpeg");
+}
+.dolls:hover,
+.jewellery:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section2text {
+  font-size: 150px;
+  font-style: italic;
+}
+.section2text:hover {
+  text-shadow: 10px 10px 20px white;
+}
+
+body{
+  position: relative;
+}
+
 /*                    page dolls/jewellery        ---------*/            
 .container {
   max-width: 1600px;
@@ -161,12 +164,12 @@ body{
   background-color: #eeeeee;
 }
 .container-item-text {
-  color: orange;
-  font-style: italic;
+  color: #f05207;
   font-size: 18px;
   display: none;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 .container-item:hover .container-item-text {
   display: block;
@@ -178,5 +181,64 @@ body{
   max-width: 370px;
   width: 100%;
   font-size: 20px;
-  line-height: 30px;;
+  line-height: 30px;
+}
+
+
+
+/*                 Blog page                         */
+
+/*                 contact page                      */
+
+
+.section2forms{
+  display: flex;
+  justify-content: space-between;    
+  margin: 50px 0 0 0;
+}
+.description, .desctext{
+  max-width: 720px;
+  width: 100%;
+  height: 288px;
+  background-color: #F8F8F8;    
+  outline: none;
+  border: none;    
+}
+.desctext:focus{
+  outline: none;
+}
+.form-wrapper{
+  display: flex;
+  max-width: 352px;
+  width: 100%;
+  height: 288px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.form{
+  display: flex;
+  max-width: 352px;
+  width: 100%;
+  height: 288px;
+  flex-direction: column;
+}
+.formitems{
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  border: 2px;
+  border-color: #E8E8E8;
+  background-color: #F8F8F8;
+  outline: none;
+  margin: 0 0 16px 0px;
+  padding: 0 0 0 10px;
+}
+.formitems:nth-child(4){
+  background-color: #5863F8;
+  margin: 0;
+  color: white;
+}
+.formitems:fucus {
+  outline: none;
 }
