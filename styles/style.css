@@ -49,6 +49,19 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.active:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f05207;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+}
 .section3 {
   display: flex;
   justify-content: space-between;
@@ -93,6 +106,9 @@
   border-radius: 5px;
   color: white;
 }
+.olalu{
+  margin-right: 20px;
+}
 
 /*                      index page                     ---------*/
 
@@ -104,7 +120,6 @@
   width: 100%;
   margin: 40px auto 100px auto;
   flex-wrap: wrap;
-  
 }
 .dolls,
 .jewellery {
@@ -135,21 +150,21 @@
   text-shadow: 10px 10px 20px white;
 }
 
-body{
+body {
   position: relative;
 }
 
-/*                    page dolls/jewellery        ---------*/            
+/*                    page dolls/jewellery        ---------*/
 .container {
   max-width: 1600px;
   width: 100%;
-  margin:0 auto 100px auto;
+  margin: 0 auto 100px auto;
   display: flex;
   padding: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.container-item{
+.container-item {
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -178,16 +193,16 @@ body{
 .container-item:hover .container-item-text {
   display: block;
 }
-.dollprice{
+.dollprice {
   margin: 10px 10px;
 }
-.box{
+.box {
   max-width: 370px;
   width: 100%;
   font-size: 20px;
   line-height: 30px;
 }
-.newsheader{
+.newsheader {
   display: flex;
   justify-content: center;
   color: #f05207;
@@ -195,72 +210,73 @@ body{
 }
 
 /*                 Blog page                         */
-.news{
+.news {
   display: flex;
   max-width: 1300px;
   width: 100%;
   flex-wrap: wrap;
-  margin:60px auto;
+  margin: 60px auto;
   justify-content: space-between;
 }
-.news:hover{
+.news:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.newsleft{
+.newsleft {
   display: flex;
   max-width: 250px;
   width: 100%;
+  margin: 35px auto;
 }
-.newsright{
+.newsright {
   display: flex;
   max-width: 900px;
   width: 100%;
   flex-direction: column;
   text-align: center;
   line-height: 40px;
-  margin: 0 40px;
+  margin: 20px auto;
   justify-content: center;
 }
-.newsheader{
+.newsheader {
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
   flex-direction: column-reverse;
 }
-.date{
+.date {
   font-size: 20px;
   font-style: italic;
 }
-.newstext{
+.newstext {
   margin: 40px 0;
   font-size: 20px;
   max-width: 650px;
   width: 100%;
   margin: 0 auto;
 }
-.articletext{
+.articletext {
   padding: 40px 0;
 }
 /*                 contact page                      */
 
-
-.section2forms{
+.section2forms {
   display: flex;
-  justify-content: space-between;    
+  justify-content: space-between;
   margin: 50px 0 0 0;
 }
-.description, .desctext{
+.description,
+.desctext {
   max-width: 720px;
   width: 100%;
   height: 288px;
-  background-color: #F8F8F8;    
+  background-color: #f8f8f8;
   outline: none;
-  border: none;    
+  border: none;
 }
-.desctext:focus{
+.desctext:focus {
   outline: none;
 }
-.form-wrapper{
+.form-wrapper {
   display: flex;
   max-width: 352px;
   width: 100%;
@@ -269,26 +285,26 @@ body{
   flex-direction: column;
   margin-left: 10px;
 }
-.form{
+.form {
   display: flex;
   max-width: 352px;
   width: 100%;
   height: 288px;
   flex-direction: column;
 }
-.formitems{
+.formitems {
   max-width: 352px;
   width: 100%;
   height: 60px;
   border: 2px;
-  border-color: #E8E8E8;
-  background-color: #F8F8F8;
+  border-color: #e8e8e8;
+  background-color: #f8f8f8;
   outline: none;
   margin: 0 0 16px 0px;
   padding: 0 0 0 10px;
 }
-.formitems:nth-child(4){
-  background-color: #5863F8;
+.formitems:nth-child(4) {
+  background-color: #5863f8;
   margin: 0;
   color: white;
 }
