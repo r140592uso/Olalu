@@ -192,17 +192,23 @@ body{
   font-size: 40px;
 }
 
-
-
 /*                 Blog page                         */
 .news{
   display: flex;
   max-width: 1300px;
   width: 100%;
   flex-wrap: wrap;
+  margin:0 auto;
+  justify-content: space-between;
+}
+.news:hover{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .newsleft{
   display: flex;
+  max-width: 250px;
+  width: 100%;
 }
 .newsright{
   display: flex;
@@ -212,6 +218,7 @@ body{
   text-align: center;
   line-height: 40px;
   margin: 0 40px;
+  justify-content: center;
 }
 .newsheader{
   display: flex;
@@ -222,10 +229,12 @@ body{
 .newstext{
   margin: 40px 0;
   font-size: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
 }
 .articletext{
   padding: 40px 0;
-
 }
 /*                 contact page                      */
 
