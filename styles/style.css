@@ -53,7 +53,7 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.active:after{
+.active:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -118,8 +118,13 @@
   border-radius: 5px;
   color: white;
 }
-.olalu{
+.olalu {
   margin-right: 20px;
+  max-width: 150px;
+  font-size: 25px;
+  font-family: "Great Vibes", cursive;
+  text-align: center;
+  color:  #f05207;
 }
 
 /*                      index page                     ---------*/
@@ -255,10 +260,12 @@ body {
 }
 .articletext {
   padding: 10px 0;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
 /*                 contact/About page                      */
-.section2forms,.contactus,.contactuswrapper {
+.section2forms,
+.contactus,
+.contactuswrapper {
   display: flex;
   max-width: 1300px;
   width: 100%;
@@ -266,7 +273,7 @@ body {
   margin: 0 auto;
   flex-wrap: wrap;
 }
-.aboutus{
+.aboutus {
   display: flex;
   max-width: 1280px;
   margin: 20px auto;
@@ -275,23 +282,23 @@ body {
   text-align: center;
   line-height: 40px;
 }
-.aboutcontactusheader{
+.aboutcontactusheader {
   display: flex;
   text-transform: uppercase;
   color: #f05207;
   font-size: 40px;
   margin: 20px auto;
 }
-.aboutustext{
+.aboutustext {
   margin: 0 auto 20px auto;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: "Edu VIC WA NT Beginner", cursive;
   font-size: 25px;
 }
-.map{
+.map {
   max-width: 1280px;
   width: 100%;
 }
-.description{
+.description {
   margin: 10px auto;
 }
 .description,
