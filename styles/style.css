@@ -226,6 +226,10 @@ body{
   text-transform: uppercase;
   flex-wrap:wrap-reverse;
 }
+.date{
+  font-size: 20px;
+  font-style: italic;
+}
 .newstext{
   margin: 40px 0;
   font-size: 20px;
