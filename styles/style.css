@@ -60,7 +60,15 @@
   background-color: #f05207;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+  margin: 40px auto 100px auto;
+  flex-wrap: wrap;
 }
 .section3 {
   display: flex;
@@ -112,15 +120,6 @@
 
 /*                      index page                     ---------*/
 
-.section2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1600px;
-  width: 100%;
-  margin: 40px auto 100px auto;
-  flex-wrap: wrap;
-}
 .dolls,
 .jewellery {
   display: flex;
