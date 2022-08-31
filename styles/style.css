@@ -12,9 +12,7 @@
   right: 0;
   left: 0;
   background-color: white;
-  /* background-color: #3477eb; */
 }
-
 .logo {
   max-width: 400px;
   width: 100%;
@@ -30,20 +28,25 @@
   width: 100%;
   margin: 0 auto;
   text-transform: uppercase;
-  /* background-color:#f05207; */
   text-align: center;
 }
 .listitem:hover {
   cursor: pointer;
 }
-.listitem {
+.listitem,.listitembag,.icon {
   display: inline-block;
   position: relative;
   color: black;
   line-height: 30px;
-  /* background-color: #3477eb; */
   text-align: center;
   margin-left: 30px;
+}
+.listitembag{
+  font-size: 40px;
+}
+.icon{
+  display: none;
+  font-size: 40px;
 }
 .listitem:after {
   content: "";
@@ -57,7 +60,7 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.listitem:hover:after {
+.listitem:not(.icons):hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -173,11 +176,9 @@
 .section2text:hover {
   text-shadow: 10px 10px 20px white;
 }
-
 body {
   position: relative;
 }
-
 /*                    dolls/jewellery page        ---------*/
 .container {
   max-width: 1600px;
@@ -238,7 +239,7 @@ body {
   max-width: 1300px;
   width: 100%;
   flex-wrap: wrap;
-  margin: 110px 20px;
+  margin: 40px 20px;
   justify-content: space-between;
 }
 .news:hover {
@@ -289,6 +290,7 @@ body {
   padding: 10px 0;
   font-family: "Edu VIC WA NT Beginner", cursive;
 }
+
 /*                 contact/About page                      */
 .section2forms,
 .contactus,
@@ -308,6 +310,11 @@ body {
   justify-content: center;
   text-align: center;
   line-height: 40px;
+}
+
+.aboutustext::first-letter {
+  font-size: 40px;
+  color: #f05207;
 }
 .aboutcontactusheader {
   display: flex;
@@ -387,6 +394,17 @@ body {
   outline: none;
 }
 /*             loginregister page             */
+.sectionreg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  width: 100%;
+  max-height: 800px;
+  margin: 150px auto 110px auto;
+  flex-wrap: wrap;
+  align-content: center;
+}
 .regform {
   display: flex;
   max-width: 635px;

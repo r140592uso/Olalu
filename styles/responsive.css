@@ -1,0 +1,15 @@
+/*           Header/footer styles       */
+@media (max-width: 1090px) {
+  .icon {
+    display: block;
+
+    margin-right: 40px;
+  }
+  .listitem,
+  .listitembag {
+    display: none;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+}
