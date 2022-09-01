@@ -1,8 +1,12 @@
 /*           Header/footer styles       */
+@media(max-width:1318px){
+  .dolls{
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 1090px) {
   .icon {
     display: block;
-
     margin-right: 40px;
   }
   .listitem,
@@ -12,8 +16,32 @@
   .logo {
     margin-left: 20px;
   }
-  .section2 {
-    /* padding: 10px; */
+}
+@media(max-width:690px){
+  .dolls, .jewellery{
+    max-width:600px;
+    height: 600px;
+  }
+}
+@media(max-width:600px){
+  .dolls, .jewellery{
+    max-width:500px;
+    height: 500px;
+  }
+}
+@media(max-width:510px){
+  .dolls, .jewellery{
+    max-width:400px;
+    height: 400px;
+  }
+  .section2text{
+    font-size: 60px;
+  }
+}
+@media(max-width:410px){
+  .dolls, .jewellery{
+    max-width:300px;
+    height: 300px;
   }
 }
 @media (max-width: 400px) {
