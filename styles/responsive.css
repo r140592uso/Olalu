@@ -9,7 +9,27 @@
   .listitembag {
     display: none;
   }
-  .logo{
+  .logo {
     margin-left: 20px;
+  }
+  .section2 {
+    /* padding: 10px; */
+  }
+}
+@media (max-width: 400px) {
+  .container-item {
+    height: 450px;
+  }
+}
+
+@media (max-width: 350px) {
+  .container-item {
+    height: 400px;
+  }
+}
+
+@media (max-width: 330px) {
+  .container-item {
+    height: 380px;
   }
 }
