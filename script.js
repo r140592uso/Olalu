@@ -1,7 +1,7 @@
 const burger = document.querySelector(".burger");
 const list = document.querySelector(".list");
 
-hamburger.addEventListener("click", () => {
-  burger.classList.toggle("activeburger");
-  list.classList.toggle("activeburger");
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  list.classList.toggle("active");
 });

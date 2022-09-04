@@ -9,13 +9,13 @@
     display: block;
     margin-right: 40px;
   }
-  .burger .activeb .hamburgerbar:nth-child(2) {
+  .burger .active .hamburgerbar:nth-child(2) {
     opacity: 0;
   }
-  .burger .activeburger .hamburgerbar:nth-child(1) {
+  .burger .active .hamburgerbar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .burger .activeburger .hamburgerbar:nth-child(3) {
+  .burger .active .hamburgerbar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
   .list {
@@ -33,7 +33,7 @@
     margin: 16px 0;
   }
   .list.active {
-    top: 30px;
+    top: 120px;
     right: 0;
   }
 }
@@ -50,6 +50,10 @@
   .jewellery {
     max-width: 500px;
     height: 500px;
+  }
+  .list.active {
+    top: 100px;
+    right: 0;
   }
 }
 @media (max-width: 510px) {
@@ -83,5 +87,9 @@
 @media (max-width: 330px) {
   .container-item {
     height: 380px;
+  }
+  .list.active {
+    top: 60px;
+    right: 0;
   }
 }
