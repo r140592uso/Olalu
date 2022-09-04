@@ -51,10 +51,6 @@
     max-width: 500px;
     height: 500px;
   }
-  .list.active {
-    top: 100px;
-    right: 0;
-  }
 }
 @media (max-width: 510px) {
   .dolls,
