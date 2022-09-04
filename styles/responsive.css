@@ -33,7 +33,7 @@
     margin: 16px 0;
   }
   .list.active {
-    top: 120px;
+    top: 100px;
     right: 0;
   }
 }
@@ -60,6 +60,15 @@
   }
   .section2text {
     font-size: 60px;
+  }  
+  .listitem {
+    margin: 10px 0;
+  }
+  .aboutustext{
+    font-size: 20px;
+  }
+  .section2{
+    margin-top: 80px;
   }
 }
 @media (max-width: 410px) {
@@ -84,8 +93,5 @@
   .container-item {
     height: 380px;
   }
-  .list.active {
-    top: 60px;
-    right: 0;
-  }
+  
 }
