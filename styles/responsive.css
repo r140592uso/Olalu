@@ -1,46 +1,71 @@
 /*           Header/footer styles       */
-@media(max-width:1318px){
-  .dolls{
+@media (max-width: 1318px) {
+  .dolls {
     margin-bottom: 20px;
   }
 }
 @media (max-width: 1090px) {
-  .icon {
+  .burger {
     display: block;
     margin-right: 40px;
   }
-  .listitem,
-  .listitembag {
-    display: none;
+  .burger .activeb .hamburgerbar:nth-child(2) {
+    opacity: 0;
   }
-  .logo {
-    margin-left: 20px;
+  .burger .activeburger .hamburgerbar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .burger .activeburger .hamburgerbar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .list {
+    position: fixed;
+    top: -500px;
+    right: -200px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .listitem {
+    margin: 16px 0;
+  }
+  .list.active {
+    top: 30px;
+    right: 0;
   }
 }
-@media(max-width:690px){
-  .dolls, .jewellery{
-    max-width:600px;
+
+@media (max-width: 690px) {
+  .dolls,
+  .jewellery {
+    max-width: 600px;
     height: 600px;
   }
 }
-@media(max-width:600px){
-  .dolls, .jewellery{
-    max-width:500px;
+@media (max-width: 600px) {
+  .dolls,
+  .jewellery {
+    max-width: 500px;
     height: 500px;
   }
 }
-@media(max-width:510px){
-  .dolls, .jewellery{
-    max-width:400px;
+@media (max-width: 510px) {
+  .dolls,
+  .jewellery {
+    max-width: 400px;
     height: 400px;
   }
-  .section2text{
+  .section2text {
     font-size: 60px;
   }
 }
-@media(max-width:410px){
-  .dolls, .jewellery{
-    max-width:300px;
+@media (max-width: 410px) {
+  .dolls,
+  .jewellery {
+    max-width: 300px;
     height: 300px;
   }
 }
@@ -49,7 +74,6 @@
     height: 450px;
   }
 }
-
 @media (max-width: 350px) {
   .container-item {
     height: 400px;

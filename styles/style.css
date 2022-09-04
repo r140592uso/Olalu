@@ -2,7 +2,7 @@
 
 .section1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   max-width: 1800px;
   width: 100%;
@@ -22,7 +22,7 @@
 }
 .list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   max-width: 1100px;
   width: 100%;
@@ -33,20 +33,27 @@
 .listitem:hover {
   cursor: pointer;
 }
-.listitem,.listitembag,.icon {
+.listitem,.listitembag,.burger {
   display: inline-block;
   position: relative;
-  color: black;
   line-height: 30px;
   text-align: center;
   margin-left: 30px;
 }
-.listitembag{
-  font-size: 40px;
-}
-.icon{
+.burger{
   display: none;
-  font-size: 40px;
+}
+.burger:hover{
+  cursor: pointer;
+}
+.hamburgerbar{  
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #f05207;
 }
 .listitem:after {
   content: "";
@@ -60,11 +67,11 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.listitem:not(.icons):hover:after {
+.listitem:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.active:after {
+.activenav:after {
   content: "";
   position: absolute;
   width: 100%;
