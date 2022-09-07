@@ -60,15 +60,28 @@
   }
   .section2text {
     font-size: 60px;
-  }  
+  }
   .listitem {
     margin: 10px 0;
   }
-  .aboutustext{
+  .aboutustext {
     font-size: 20px;
   }
-  .section2{
+  .section2 {
     margin-top: 80px;
+  }
+  .video {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .olalu {
+    font-size: 15px;
+  }
+  .news {
+    margin: 5px;
+  }
+  .aboutus {
+    margin: 5px;
   }
 }
 @media (max-width: 410px) {
@@ -93,5 +106,11 @@
   .container-item {
     height: 380px;
   }
-  
+  .sectionreg{
+    margin: 50px 0;
+  }
+  .regform{
+    /* display: none; */
+  }
+
 }

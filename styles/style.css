@@ -438,9 +438,9 @@ body {
   outline: none;
   margin: 0 0 16px 0px;
   padding: 0 0 0 10px;
-  background-color: #a258ed;
+  background-color: #626cf5;
   color: white;
 }
 .regbuttons:hover {
-  background-color: #626cf5;
+  background-color: #f05207;
 }
