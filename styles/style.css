@@ -5,8 +5,8 @@
 * Browsers: last 4 version
 */
 
+@import url(colors.css);
 /*          Header/footer styles */
-@import url(/styles/colors.css);
 .section1 {
   display: -webkit-box;
   display: -ms-flexbox;
