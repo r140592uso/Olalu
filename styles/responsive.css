@@ -66,14 +66,6 @@
   .container{
     margin: 30px 10px;
   }
-  .dollimages {
-    max-width: 200px;
-  }
-  .container-item{
-    max-height: 315px;
-    max-width: 230px;
-  }
-
   .aboutustext {
     font-size: 20px;
   }
@@ -124,4 +116,13 @@
   .regform{
     /* display: none; */
   }
+
+  .dollimages {
+    max-width: 210px;
+  }
+  .container-item{
+    max-height: 330px;
+    max-width: 230px;
+  }
+
 }
