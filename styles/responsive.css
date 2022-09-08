@@ -100,6 +100,13 @@
   .container-item {
     height: 450px;
   }
+  .dollimages {
+    max-width: 280px;
+  }
+  .container-item{
+    max-height: 400px;
+    max-width: 300px;
+  }
 }
 @media (max-width: 350px) {
   .container-item {
@@ -113,10 +120,6 @@
   .sectionreg{
     margin: 50px 0;
   }
-  .regform{
-    /* display: none; */
-  }
-
   .dollimages {
     max-width: 210px;
   }
