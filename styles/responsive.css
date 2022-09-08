@@ -83,6 +83,9 @@
   .aboutus {
     margin: 5px;
   }
+  .articletext,.aboutustext{
+    line-height: 30px;
+  }
 }
 @media (max-width: 410px) {
   .dolls,

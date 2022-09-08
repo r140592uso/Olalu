@@ -405,6 +405,10 @@ body {
   padding: 10px 0;
   font-family: "Edu VIC WA NT Beginner", cursive;
 }
+.articletext::first-letter {
+  font-size: 40px;
+  color: var( --orange);
+}
 
 /*                 contact/About page                      */
 .section2forms,
