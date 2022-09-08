@@ -71,6 +71,7 @@
   }
   .container-item{
     max-height: 315px;
+    max-width: 230px;
   }
 
   .aboutustext {
