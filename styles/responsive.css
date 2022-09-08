@@ -37,7 +37,6 @@
     right: 0;
   }
 }
-
 @media (max-width: 690px) {
   .dolls,
   .jewellery {
@@ -64,6 +63,16 @@
   .listitem {
     margin: 10px 0;
   }
+  .container{
+    margin: 30px 10px;
+  }
+  .dollimages {
+    max-width: 200px;
+  }
+  .container-item{
+    max-height: 315px;
+  }
+
   .aboutustext {
     font-size: 20px;
   }
@@ -104,7 +113,6 @@
     height: 400px;
   }
 }
-
 @media (max-width: 330px) {
   .container-item {
     height: 380px;
@@ -115,5 +123,4 @@
   .regform{
     /* display: none; */
   }
-
 }
