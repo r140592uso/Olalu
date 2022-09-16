@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /*           Header/footer styles       */
 @media (max-width: 1318px) {
   .dolls {
@@ -9,24 +16,20 @@
     display: block;
     margin-right: 40px;
   }
-  /* .burger .active .hamburgerbar:nth-child(2) {
-    opacity: 0;
-  }
-  .burger .active .hamburgerbar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .burger .active .hamburgerbar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  } */
   .list {
     position: fixed;
     top: -500px;
     right: -200px;
     gap: 0;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: white;
     width: 100%;
     text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   .listitem {
@@ -127,8 +130,12 @@
     height: 380px;
   }
   .sectionreg{
-    margin: 50px 0;
+    margin: 90px 0;
   }
+  .section2subclass{
+    margin: 90px 20px;
+  }
+  
   .dollimages {
     max-width: 210px;
   }
